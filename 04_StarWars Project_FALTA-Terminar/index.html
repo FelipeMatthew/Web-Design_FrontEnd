@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Universe</title>
+
+<!-- or link to the CDN -->
+
+<link rel="stylesheet" href="./vendor/glider/dist/css/splide.min.css">
+<link rel="stylesheet" href="./vendor/glider/dist/css/splide-core.min.css">
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="./Style/estilo.css">
+
+     <!-- SCRIPTS -->
+    <script src="scripts/scripts.js"></script>
+    <script src="vendor/glider/dist/js/splide.min.js"></script>
+    <script src="vendor/glider/dist/js/splide.js"></script>
+
+</head>
+<body>
+   
+        <header class="h-principal">
+            <div class="flex wreapper">
+                <h1 class="h-titulo ">Star Wars Universe</h1>
+
+                <label for="h-search">
+                    <input type="text" name="h-search" id="h-search" placeholder="Pesquisar Personagens">
+                </label>
+            </div>
+        </header>
+    <main>
+        <section class=" wreapper titulo-p">
+            
+          
+
+             <h2 class="h2">Movies</h2>
+
+            <section class="flex">
+                <div class="card">
+                        <article >
+                            <img src="./Images/episode_1.jpg" alt="filme1" class="img">
+                            <div class="film-titulo">
+                                <header><h3 >Star Wars 1</h3></header>
+                            </div>
+                            <div>
+                                <h4>Data de lançamento</h4>
+                                <p> {{data_lançamento}}</p>
+                                <h4>Diretor</h4>
+                                <p>{{nome_diretor}} </p>
+                            </div>
+                        </article>
+                    
+                </div>
+
+                <div class="card">
+                   
+                   
+                        <article>
+                            <img src="./Images/episode_2.webp" alt="filme2" class="img">
+                            <div class="film-titulo">
+                                <header><h3 >Star Wars 1</h3></header>
+                            </div>
+                            <div>
+                                <h4>Data de lançamento</h4>
+                                <p> {{data_lançamento}}</p>
+                                <h4>Diretor</h4>
+                                <p>{{nome_diretor}} </p>
+                            </div>
+                        </article>
+                    
+                </div>
+
+
+                <div class="card">
+                   
+                    
+                        <article>
+                            <img src="./Images/episode_3.jpg" alt="filme3" class="img">
+                            <div class="film-titulo">
+                                <header><h3 >Star Wars 1</h3></header>
+                            </div>
+                            <div>
+                                <h4>Data de lançamento</h4>
+                                <p> {{data_lançamento}}</p>
+                                <h4>Diretor</h4>
+                                <p>{{nome_diretor}} </p>
+                            </div>
+                        </article>
+                    
+                </div>
+            </section>
+    <!-- 
+                <div class="card">
+                    <img src="./Images/episode_4.webp" alt="filme4" class="img">
+                    <section>
+                    <article>
+                        <header><h3 class="film-titulo">Star Wars 4</h3></header>
+                        <p>Data de lançamento: <br> {{data_lançamento}}</p>
+                        <p>Diretor: <br> {{nome_diretor}}</p>
+                    </article>
+                    </section>
+                </div>
+
+                <div class="card">
+                    <img src="./Images/episode_5.jpg" alt="filme5" class="img">
+                    <section>
+                    <article>
+                        <header><h3 class="film-titulo">Star Wars 5</h3></header>
+                        <p>Data de lançamento: <br> {{data_lançamento}}</p>
+                        <p>Diretor: <br> {{nome_diretor}}</p>
+                    </article>
+                    </section>
+                </div>
+
+                <div class="card">
+                    <img src="./Images/episode_6.jpg" alt="filme6" class="img">
+                    <section>
+                    <article>
+                        <header><h3 class="film-titulo">Star Wars 6</h3></header>
+                        <p>Data de lançamento: <br> {{data_lançamento}}</p>
+                        <p>Diretor: <br> {{nome_diretor}}</p>
+                    </article>
+                    </section>
+                </div> -->
+
+
+            
+
+
+        </section>
+
+
+        <div class="wreapper character">
+
+            <h2 class="h2">Charecters</h2>
+
+            <div class="ator">
+                <section>
+                    <article>
+
+                        <header><h3 class="h3-ator">Nome do ator</h3></header>
+                        <p>Data de Nascimento <br> {{birth_date}}</p>
+                        <p>Altura <br> {{height}}</p>
+
+                    </article>
+                </section>
+            </div>
+
+            <div class="ator">
+                <section>
+                    <article>
+
+                        <header><h3 class="h3-ator">Nome do ator</h3></header>
+                        <p>Data de Nascimento <br> {{birth_date}}</p>
+                        <p>Altura <br> {{height}}</p>
+
+                    </article>
+                </section>
+            </div>
+
+            <div class="ator">
+                <section>
+                    <article>
+
+                        <header><h3 class="h3-ator">Nome do ator</h3></header>
+                        <p>Data de Nascimento <br> {{birth_date}}</p>
+                        <p>Altura <br> {{height}}</p>
+
+                    </article>
+                </section>
+            </div>
+
+            <!-- <div class="ator">
+                <section>
+                    <article>
+
+                        <header><h3 class="h3-ator">Nome do ator</h3></header>
+                        <p>Data de Nascimento <br> {{birth_date}}</p>
+                        <p>Altura <br> {{height}}</p>
+
+                    </article>
+                </section>
+            </div>
+
+            <div class="ator">
+                <section>
+                    <article>
+
+                        <header><h3 class="h3-ator">Nome do ator</h3></header>
+                        <p>Data de Nascimento <br> {{birth_date}}</p>
+                        <p>Altura <br> {{height}}</p>
+
+                    </article>
+                </section>
+            </div>
+
+            <div class="ator">
+                <section>
+                    <article>
+
+                        <header><h3 class="h3-ator">Nome do ator</h3></header>
+                        <p>Data de Nascimento <br> {{birth_date}}</p>
+                        <p>Altura <br> {{height}}</p>
+
+                    </article>
+                </section>
+            </div> -->
+
+    </main>
+    <div class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">AAAAAAAAAAAAAA</li>
+                <li class="splide__slide">AAAAAAAAAAAAAA</li>
+                <li class="splide__slide">AAAAAAAAAAAAAA</li>
+
+
+            </ul>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+
+     <!-- Links pro JS -->
+   
+</body>
+
+</html>

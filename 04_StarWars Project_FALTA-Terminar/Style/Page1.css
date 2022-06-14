@@ -1,0 +1,60 @@
+@font-face {
+    font-family: fira-code;
+    src: url(../Fonts/FiraCode-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fira-code, sans-serif;
+
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.wreapper {
+    width: 80%;
+    max-width: 1270px;
+    margin: 0px auto;
+}
+
+.h-principal{
+    background-color: black;
+    color: white;
+    padding: 10px;
+   
+}
+#h-search{
+    border-radius: 5px;
+    padding-right: 15px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    width: 288px ;
+    height: 29px;    
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-descriçao{
+    margin: 50px 500px 50px 150px;
+}
+
+#t-f-h2{
+    margin-top: 40px;
+    text-align: center;
+}
+#section-descriçao-p{
+    text-align: right;
+}
+img{
+    
+    width: 250px;
+    height: 250px;
+}
+h2{
+    text-align: center;
+}

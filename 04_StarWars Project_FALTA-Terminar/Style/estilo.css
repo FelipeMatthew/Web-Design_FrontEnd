@@ -1,0 +1,77 @@
+@font-face {
+    font-family: fira-code;
+    src: url(../Fonts/FiraCode-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fira-code, sans-serif;
+
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.wreapper {
+    width: 80%;
+    max-width: 1270px;
+    margin: 0px auto;
+}
+
+.h-principal{
+    background-color: black;
+    color: white;
+    padding: 10px;
+   
+}
+#h-search{
+    border-radius: 5px;
+    padding-right: 15px;
+    letter-spacing: 1.5px;
+    text-align: right;
+    width: 288px ;
+    height: 29px;    
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h2{
+    text-align: center;
+    padding: 25px;
+}
+
+.card{
+
+width: 30%;
+display: flex;
+margin-left: 1%;
+text-align: center;
+margin-bottom: 80px;
+}
+.img{
+    width: 268px;
+    height: 350px;
+
+}
+.film-titulo{
+    background-color: yellow;
+}
+
+.ator{
+
+
+width: 32%;
+display: flex;
+float: left;
+margin-left: 1%;
+text-align: center;
+
+margin-bottom: 80px;
+}
+.h3-ator{
+    background-color:yellow;
+}
